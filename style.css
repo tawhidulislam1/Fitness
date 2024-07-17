@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    color: #fff;
+    padding: 0;
+    
+}
+body{
+    background: #000;
+}
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+}
+/* Miama Google Font  */
+@font-face {
+    font-family: 'Miama Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miama Regular'), url('google-font/Miama.woff') format('woff');
+    }
+/* Shared Style  */
+.btn{
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #e6533c;
+}
+
+section{
+    width: 90%;
+    margin: 80px 5%;
+}
+.section-title{
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 14px;
+    font-weight: 900;
+}
+.section-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Navbar Style Started  */
+nav{
+    justify-content: space-around;
+    display: flex;
+    height: 30%;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.menu-list ul{
+    gap: 24px;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 20px 12px 5px;
+    border-radius: 40px;
+}
+.menu-list ul li{
+    list-style-type: none;
+}
+.menu-list ul li a{
+    font-size: 1.2rem;
+   text-decoration: none;
+}
+.active{
+    border-radius: 46px;
+    padding: 8px 20px;
+    background: #e6533c;
+}
+.logo{
+    color: #e6533c;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+/* header section styled  */
+header{
+    background: linear-gradient(180.00deg, #111111,#77777700 100%);
+}
+.header{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.header-content{
+    width: 50%;
+
+}
+.header-content h3 .styliest-font{
+    font-family: 'Miama Regular';
+    font-weight: 400;
+    font-size: 6rem;
+}
+.header-content h3{
+    letter-spacing: 0%;
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom: 18px;
+    line-height: 79px;
+}
+.header-content p{
+    color: #ffffff80;
+    font-size: 1rem ;
+    font-weight: 400;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+.btn-section {
+    display: flex;
+    gap: 20px;
+}
+.btn-section button:nth-child(2){
+    background: none;
+    border: 2px solid #fff;
+    margin-right: 20px;
+}
+
+.header-img img{
+    width: 100%;
+}
+
+/* habit section style  */
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+
+}
+.habit-card img{
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 15%;
+    border: 2px solid #2e2e2e;
+}
+.habit-card h4{
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.habit-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
