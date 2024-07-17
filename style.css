@@ -157,3 +157,30 @@ header{
     letter-spacing: 0.3px;
     text-align: center;
 }
+
+/* run extra section style   */
+.run-extra{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 18px;
+    padding: 40px 54px;
+    align-items: center;
+    background: #222222;
+}
+.run-content{
+    width: 40%;
+}
+.run-content h4{
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.run-content .section-description{
+    text-align: left;
+}
+.run-img img{
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+}
