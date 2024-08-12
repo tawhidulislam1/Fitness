@@ -145,7 +145,66 @@ header{
 .header-img img{
     width: 100%;
 }
+.video {
+    left: -60px;
+    bottom: 25px;
+}
+.workout {
+    top: 140px;
+    right: 0px;
+}
+.video-content h5{
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.video-content p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.9rem;
+}
+.video , .workout{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    position: absolute;
+    padding: 20px;
+}
+.icon i{
+    background: rgb(230, 83, 60);
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    justify-content: space-evenly;
+}
 
+/* about us section style  */
+.about{
+    display: flex;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content {
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-content .section-description{
+    text-align: left;
+}
+.about-content h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+    font-size: 3rem;
+    font-weight: 900;
+}
 /* habit section style  */
 .habit-container{
     display: grid;
@@ -202,6 +261,86 @@ header{
     height: 312px;
 }
 
+/* BMI section Styled  */
+.bmi{
+    margin: 0;
+    width: 100%;
+}
+.bmi .bmi-heading {
+    width: 48%;
+    margin-left: 30%;
+}
+.bmi .bmi-heading h3{
+    text-align: left;
+}
+.bmi .bmi-heading p{
+    text-align: left;
+}
+
+.bmi .bmi-table table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    margin-top: 50px;
+}
+.bmi .bmi-table table, th, th{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+.bmi-head{
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(34, 34, 34);
+}
+.bmi-head .bmi-table{
+    width: 50%;
+}
+.bmi-head .bmi-table table{
+    width: 60%;
+}
+.bmi-head .bmi-form{
+    width: 50%;
+}
+.bmi-title{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.bmi-form .section-description{
+    text-align: left;
+    font-size: 0.9rem;
+    margin: 18px 0 36px 0;
+}
+
+.bmi-filed, .bmi-option {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px 40px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    margin: 0px 8px 8px 0;
+    
+}
+
+.bmi-option{
+    width: 99%;
+}
+.bmi-cal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+::placeholder  {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+select.bmi-option{ 
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /* team section styled  */
 .team-container{
