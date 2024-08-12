@@ -84,6 +84,9 @@ nav{
     font-size: 1.2rem;
    text-decoration: none;
 }
+.menu{
+    display: none;
+}
 .active{
     border-radius: 46px;
     padding: 8px 20px;
@@ -153,9 +156,12 @@ header{
     top: 140px;
     right: 0px;
 }
+.header-img{
+    position: relative;
+}
 .video-content h5{
     font-size: 1.9rem;
-    font-weight: 900;
+    font-weight: bold;
     margin-left: 10px;
 }
 .video-content p{
@@ -418,4 +424,72 @@ footer{
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.3rem;
+}
+
+
+/* Responsive Design  */
+@media screen and (max-width: 576px) {
+    .menu-list{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menu i{
+        font-size: 2rem;
+    }
+    .header , .about , .run-extra , .bmi-head , .footer , .right-footer{
+        display: block;
+    }
+    .header-content ,.about-img , .about-content , .run-content , .bmi-head .bmi-table , .left-footer ,.right-footer , .bmi .bmi-heading{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .left-footer{
+        padding-left: 0;
+    }
+    .bmi-head .bmi-form {
+        width: 103%;
+        margin-left: 0%;
+        padding-top: 22px;
+    }
+    .left-footer .logo {
+        margin-bottom: 36px;
+    }
+    .right-footer {
+        padding-right: 0;
+    }
+    .right-footer ul h2 {
+        padding-top: 40px;
+    }
+    .bmi-head .bmi-table table {
+        width: 100%;
+    }
+    .video {
+        left: 47px;
+        bottom: 180px;
+    }
+    .workout {
+        top: 120px;
+        right: 35px;
+    }
+    .video-content h5 {
+        font-size: 2.1rem;
+        margin-left: 10px;
+    }
+    .run-img img {
+        margin-top: 20px;
+    }
+    .last-footer {
+        padding: 40px 50px 10px 50px;
+    }
+    .habit-container, .team-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .header-content {
+        margin-top: 100px;
+    }
+    
 }
