@@ -491,5 +491,37 @@ footer{
     .header-content {
         margin-top: 100px;
     }
+    .run-img img {
+        width: 100%;
+    }
+    .bmi-filed, .bmi-option {
+        padding: 18px 5%;
+    }
+    .run-extra {
+        padding: 38px 12px;
+    }
+    .left-footer .logo {
+        font-size: 3rem;
+    }
+    .last-footer h3 {
+        text-align: center;
+        padding: 30px 0;
+    }    
+    .btn {
+        border-radius: 42px;
+        padding: 16px 24px 16px 24px;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 2px solid #e6533c;
+        background: #e6533c;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .run-content .btn{
+        width: 100%;
+    }
+    
     
 }
